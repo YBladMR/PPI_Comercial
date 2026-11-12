@@ -47,8 +47,8 @@
             Categorías
           </a>
           <ul class="nav-group-items compact">
-            <li class="nav-item"><a class="nav-link" href="/project_comercial_ppi/forms/Productos.php"><span class="nav-icon"><span class="nav-icon-bullet"></span></span> Registrar</a></li>
-            <li class="nav-item"><a class="nav-link" href="/project_comercial_ppi/forms/Lista_Productos.php"><span class="nav-icon"><span class="nav-icon-bullet"></span></span> Consultar</a></li>
+            <li class="nav-item"><a class="nav-link" href="/project_comercial_ppi/forms/categoria.php"><span class="nav-icon"><span class="nav-icon-bullet"></span></span> Registrar</a></li>
+            <li class="nav-item"><a class="nav-link" href="/project_comercial_ppi/forms/lista-categoria.php"><span class="nav-icon"><span class="nav-icon-bullet"></span></span> Consultar</a></li>
             </ul>
         </li>
       </ul>
