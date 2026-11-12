@@ -1,6 +1,5 @@
 /* ============================================================
  * JSLista_Productos.js
- * Lista de productos con diseño propio (sin librerías de tablas):
  * tarjetas de resumen, filtros, orden, paginación,
  * editar y dar de baja / reactivar (activo <-> inactivo).
  * ============================================================ */

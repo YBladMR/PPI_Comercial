@@ -34,7 +34,7 @@
               <div class="row mb-3">
                 <div class="col-md-6">
                   <label for="nombre" class="form-label">Nombre del Producto *</label>
-                  <input type="text" class="form-control" id="nombre" name="nombre" maxlength="120" required placeholder="Ej. Computadora de Escritorio">
+                  <input type="text" class="form-control" id="nombre" name="nombre" maxlength="120" required placeholder="Ej. Computadora de Escritorio" autocomplete="off">
                 </div>
                 
                 <div class="col-md-6">
@@ -57,15 +57,15 @@
               <div class="row mb-3">
                 <div class="col-md-4">
                   <label for="alto_cm" class="form-label">Alto (cm)</label>
-                  <input type="number" step="0.01" min="0" class="form-control" id="alto_cm" name="alto_cm" placeholder="0.00">
+                  <input type="number" step="0.01" min="0" class="form-control" id="alto_cm" name="alto_cm" placeholder="0.00" autocomplete="off">
                 </div>
                 <div class="col-md-4">
                   <label for="ancho_cm" class="form-label">Ancho (cm)</label>
-                  <input type="number" step="0.01" min="0" class="form-control" id="ancho_cm" name="ancho_cm" placeholder="0.00">
+                  <input type="number" step="0.01" min="0" class="form-control" id="ancho_cm" name="ancho_cm" placeholder="0.00" autocomplete="off">
                 </div>
                 <div class="col-md-4">
                   <label for="profundidad_cm" class="form-label">Profundidad (cm)</label>
-                  <input type="number" step="0.01" min="0" class="form-control" id="profundidad_cm" name="profundidad_cm" placeholder="0.00">
+                  <input type="number" step="0.01" min="0" class="form-control" id="profundidad_cm" name="profundidad_cm" placeholder="0.00" autocomplete="off">
                 </div>
               </div>
 
@@ -73,19 +73,19 @@
               <div class="row mb-3">
                 <div class="col-md-3">
                   <label for="peso_kg" class="form-label">Peso (Kg)</label>
-                  <input type="number" step="0.01" min="0" class="form-control" id="peso_kg" name="peso_kg" placeholder="0.00">
+                  <input type="number" step="0.01" min="0" class="form-control" id="peso_kg" name="peso_kg" placeholder="0.00" autocomplete="off">
                 </div>
                 <div class="col-md-3">
                   <label for="material" class="form-label">Material</label>
-                  <input type="text" class="form-control" id="material" name="material" maxlength="50" placeholder="Ej. Plástico / Aluminio">
+                  <input type="text" class="form-control" id="material" name="material" maxlength="50" placeholder="Ej. Plástico / Aluminio" autocomplete="off">
                 </div>
                 <div class="col-md-3">
                   <label for="precio_venta" class="form-label">Precio de Venta ($) *</label>
-                  <input type="number" step="0.01" min="0" class="form-control" id="precio_venta" name="precio_venta" value="0.00" required>
+                  <input type="number" step="0.01" min="0" class="form-control" id="precio_venta" name="precio_venta" value="0.00" required autocomplete="off">
                 </div>
                 <div class="col-md-3">
                   <label for="stock_minimo" class="form-label">Stock Mínimo *</label>
-                  <input type="number" min="0" class="form-control" id="stock_minimo" name="stock_minimo" value="0" required>
+                  <input type="number" min="0" class="form-control" id="stock_minimo" name="stock_minimo" value="0" required autocomplete="off">
                 </div>
               </div>
 
